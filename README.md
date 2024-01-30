@@ -1,1 +1,1 @@
-"# Digital-image-processing" 
+A mix of functions for digital image processing visualizations
