@@ -1,0 +1,112 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3067577212" file="P:\dip\Digital Image Processing By Kodo Yousif.prj" location="P:\dip" name="Digital Image Processing By Kodo Yousif" target="target.mlapps" target-name="Package App">
+    <param.appname>Digital Image Processing By Kodo Yousif</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\kodoy\AppData\Local\Temp\tpfd7ea614_7fbd_469a_a5ba_91b9a32e1293.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>P:\</param.output>
+    <param.guid>c79f5f96-b799-4490-b05c-897fe667c6b8</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\addNoise.m</file>
+      <file>${PROJECT_ROOT}\averageFilter.m</file>
+      <file>${PROJECT_ROOT}\catStretch.m</file>
+      <file>${PROJECT_ROOT}\centerContrast.m</file>
+      <file>${PROJECT_ROOT}\fTransform.m</file>
+      <file>${PROJECT_ROOT}\laplacian.m</file>
+      <file>${PROJECT_ROOT}\morph.m</file>
+      <file>${PROJECT_ROOT}\phase.m</file>
+      <file>${PROJECT_ROOT}\t1.jpg</file>
+      <file>${PROJECT_ROOT}\toGray.m</file>
+      <file>${PROJECT_ROOT}\toPeaceWise80.m</file>
+      <file>${PROJECT_ROOT}\toPeaceWiseRule.m</file>
+      <file>${PROJECT_ROOT}\windowStretch.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables />
+    <workflow />
+    <matlab>
+      <root>P:\m</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
